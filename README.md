@@ -1,5 +1,8 @@
-# API Boilerplate
-This is a boilerplate project for Python REST microservice APIs. 
+# Funding service design frontend.
+
+Repo for the funding service design frontend.
+
+Built with Flask.
 
 ## Prerequisites
 - python ^= 3.10
