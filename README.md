@@ -24,14 +24,24 @@ Clone the repository
 
     poetry install
 
+### Create static files
+
+    ./build.sh
+
 ### Enter the virtual environment
 
     poetry shell
 
 ## How to use
 
-Once in the virtual enviroment:
-
-    ./build.sh
+A requirements.txt is included for developer preference. Once you have
+installed the dependences (poetry or otherwise), enter the virtual environment
+and run:
 
     flask run
+
+A local dev server will be created on 
+
+    http://127.0.0.1:5000/
+
+This is configurable in .flaskenv
