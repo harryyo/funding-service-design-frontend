@@ -28,7 +28,6 @@ csp = {
 Compress(app)
 Talisman(app, content_security_policy=csp)
 
-
 @app.context_processor
 def inject_global_constants():
     return dict(
@@ -39,6 +38,5 @@ def inject_global_constants():
         service_meta_keywords="DLUHC Funding Service Design Iteration 1",
         service_meta_author="Evoco Digital Services",
     )
-
 
 from app import routes
