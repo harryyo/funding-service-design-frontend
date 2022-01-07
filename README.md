@@ -7,13 +7,16 @@ Repo for the funding service design frontend.
 
 Built with Flask.
 
-# Prerequisites
+# Funding Service Design - Iteration 1
+This is the first iteration of the Funding Service Design Beta application 
+
+## Prerequisites
 - python ^= 3.10
 - poetry ^= 1.1.12
 
-# Getting started
+## Getting started
 
-## Installation
+# Installation
 
 ### Locally:
 Clone the repository
@@ -26,14 +29,13 @@ Clone the repository
 
 ### Create static files
 
-    ./build.sh
+    bash ./build.sh
 
 ### Enter the virtual environment
 
     poetry shell
 
 ## How to use
-
 A requirements.txt is included for developer preference. Once you have
 installed the dependences (poetry or otherwise), enter the virtual environment
 and run:
