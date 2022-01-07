@@ -7,7 +7,7 @@ This is a boilerplate project for Python REST microservice APIs.
 
 ## Getting started
 
-#Installation
+# Installation
 
 ### Locally:
 Clone the repository
@@ -23,6 +23,8 @@ Clone the repository
     poetry shell
 
 ## How to use
+
+Once in the virtual enviroment:
 
     ./build.sh
 
